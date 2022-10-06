@@ -1,0 +1,338 @@
+@font-face {
+  font-family: "Mulish";
+  src: url("./fonts/Mulish-Bold.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("./fonts/Mulish-Light.otf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("./fonts/Mulish-Medium.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("./fonts/Mulish-Semibold.otf");
+  font-weight: 500;
+}
+.header {
+  background-color: #003399;
+}
+
+.header-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.menu-item {
+  width: 160px;
+    padding: 18px 0;
+    text-align: center;
+    border-bottom: 2px solid #003399;
+}
+.menu-item:hover,.active {
+  border-bottom: 2px solid white;
+}
+
+.menu-link {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+
+  /* White */
+
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.booking-info {
+  padding: 5px 15px;
+  background: linear-gradient(90deg, #00CCFF -63.78%, #FF00FF 91.29%);
+  border-radius: 40px;
+}
+.banner{
+  position: relative;
+}
+.booking-btn{
+  position: absolute;
+  bottom: 40px;
+  right: 63px;
+  background: linear-gradient(90deg, #00CCFF -63.78%, #FF00FF 91.29%);
+  border-radius: 40px;
+  border: 0;
+  padding: 24px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+.gt{
+  background: #003399;
+}
+.gt-content{
+  margin-bottom: 30px;
+  padding: 0 190px;
+}
+.gt-content p{
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+text-align: justify;
+color: #FFFFFF;
+}
+.gt-btn{
+  padding-top: 40px;
+  padding-bottom: 21px;
+  margin: 0px auto;
+  display: block;
+}
+.diem-nhan-btn{
+  margin-bottom: 40px;
+}
+.diem-nhan-content{
+  height: 410px;
+  margin-bottom: 40px;
+  display: flex;
+}
+.diem-nhan-content span {
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+}
+.diem-nhan-content p {
+  font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #ffffff;
+padding-right: 36px;
+padding-top: 22px;
+}
+.doi-tuong-tham-du{
+  margin-bottom: 40px;
+}
+.lich-trinh{
+  margin-bottom: 40px;
+}
+.chuong-trinh{
+  background-color: #FFFFFF;
+}
+.dien-gia{
+  background-color: #FFFFFF;
+}
+.dien-gia-title{
+  padding-bottom: 40px;
+  padding-top: 24px;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+.thong-tin-ve{
+  position: relative;
+}
+.btn-vir-1{
+  position: absolute;
+  display: block;
+  bottom: 63.5%;
+  right: 66%;
+}
+.btn-vir-2{
+  position: absolute;
+  display: block;
+  bottom: 63.5%;
+  right: 34.5%;
+}
+.btn-tkb-1{
+  position: absolute;
+  display: block;
+  bottom: 63.5%;
+  right: 51.5%;
+}
+.btn-tkb-2{
+  position: absolute;
+  display: block;
+  bottom: 63.5%;
+  right: 20%;
+}
+.footer{
+  background: #003399;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pc{
+  display: block;
+}
+.mobile{
+  display: none;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .pc{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+  .booking-btn{
+    position: absolute;
+    bottom: 12.5%;
+    right: 40%;
+    background: linear-gradient(90deg, #00CCFF -63.78%, #FF00FF 91.29%);
+    border-radius: 40px;
+    border: 0;
+    padding: 8px 12px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13.8px;
+    color: #FFFFFF;
+  }
+  .gt-content{
+    padding: 0;
+    margin-top: 24px;
+  }
+ 
+  .diem-nhan-mobile span {
+    font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  }
+  .diem-nhan-mobile p {
+    font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-right: 36px;
+  padding-top: 22px;
+  }
+  .btn-vir-mb-1{
+    position: absolute;
+    display: block;
+    bottom: 77.5%;
+    right: 55%;
+  }
+  .btn-vir-mb-2{
+    position: absolute;
+    display: block;
+    bottom: 77.5%;
+    right: 12%;
+  }
+  .btn-tkb-mb-1{
+    position: absolute;
+    display: block;
+    bottom: 74%;
+    right: 55%;
+  }
+  .btn-tkb-mb-2{
+    position: absolute;
+    display: block;
+    bottom: 74%;
+    right: 12%;
+  }
+  
+}
+@media only screen and (max-width: 540px) {
+  .booking-btn{
+    right: 36%;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .booking-btn{
+    right: 29.5%;
+  }
+}
+
+
+
+/*# sourceMappingURL=index.css.map */
