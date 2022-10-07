@@ -312,7 +312,7 @@ padding-top: 22px;
     font-family: 'Mulish-BoldItalic';
           font-style: normal;
           font-weight: 700;
-          font-size: 24px;
+          font-size: 18px;
           line-height: 20px;
           text-align: center;
           color: #003399;
@@ -328,7 +328,7 @@ padding-top: 22px;
   .booking-btn{
     position: absolute;
     bottom: 12.5%;
-    right: 40%;
+    right: 41%;
     background: linear-gradient(90deg, #00CCFF -63.78%, #FF00FF 91.29%);
     border-radius: 40px;
     border: 0;
@@ -353,13 +353,13 @@ padding-top: 22px;
   line-height: 24px;
   }
   .diem-nhan-mobile p {
-    font-family: 'Mulish';
+  font-family: 'Mulish';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #ffffff;
-  padding-right: 36px;
+  /* padding-right: 36px; */
   padding-top: 22px;
   }
   .btn-vir-mb-1{
@@ -396,9 +396,19 @@ padding-top: 22px;
     right: 36%;
   }
 }
+@media only screen and (max-width: 480px) {
+  .booking-btn{
+    right: 34%;
+  }
+}
 @media only screen and (max-width: 430px) {
   .booking-btn{
-    right: 29.5%;
+    right: 32%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .booking-btn{
+    right: 30%;
   }
 }
 
