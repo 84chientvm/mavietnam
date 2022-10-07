@@ -395,6 +395,18 @@ padding-top: 22px;
   .booking-btn{
     right: 36%;
   }
+  .btn-vir-mb-1{
+    bottom: 35%;
+  }
+  .btn-vir-mb-2{
+    bottom: 35%;
+  }
+  .btn-tkb-mb-1{
+    bottom: 25%;
+  }
+  .btn-tkb-mb-2{
+    bottom: 25%;
+  }
 }
 @media only screen and (max-width: 480px) {
   .booking-btn{
