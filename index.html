@@ -225,6 +225,14 @@
           <div class="booking-info">
             <a href="#booking" class="menu-link ">thông tin vé</a>
           </div>
+          <div class="languages" style="display: flex; border-radius: 8px; padding-left: 15px; padding-top: 5px;">
+            <div class="inline-block">
+              <img class="lang vi" src="./static/images/btnvi.png" style="max-width: 100%; width: 100%; border-radius: 8px 0px 0px 8px;" />
+            </div>
+            <div class="inline-block">
+              <img class="lang us" src="./static/images/btnus.png" style="max-width: 100%; width: 100%; border-radius: 0px 8px 8px 0px;" />
+            </div>
+          </div>
         </div>
         <nav style="margin: 0;" class="navbar navbar-dark ">
           <img class="mobile" src="./static/images/icon.svg" style="max-width: 100%;margin-right: auto;padding-left: 24px;" />
@@ -269,7 +277,7 @@
           </p>
 
         </div>
-        <img class="diem-nhan-btn pc" src="./static/images/diem-nhan.png" style="max-width: 100%; width: 100%" />
+        <img class="diem-nhan-btn pc" src="./static/images/diem-nhan.svg" style="max-width: 100%; width: 100%" />
         <div class="pc">
           <div class="diem-nhan-content ">
             <div style="padding-top: 17px;">
@@ -373,7 +381,7 @@
         <img src="./static/images/doi-tuong-tham-du.png" style="max-width: 100%; width: 100%" alt="" class="doi-tuong-tham-du pc">
         <img src="./static/images/lich-trinh.png" style="max-width: 100%; width: 100%" alt="" class="lich-trinh pc">
       </div>
-      <img class="mobile" src="./static/images/diem-nhan-mb.png" style="width: 100%;height: auto;" />
+      <img class="mobile" src="./static/images/diem-nhan-mb.svg" style="width: 100%;height: auto;" />
       <div class="mobile">
         <div>
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -520,68 +528,44 @@
             <div class="col-sm-3 col-xs-6">
               <img src="./static/images/dien-gia-9-pc.png" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(9)" />
             </div>
+            <div class="col-sm-3 col-xs-6">
+              <img src="./static/images/dien-gia-10-pc.png" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(10)" />
+            </div>
           </div>
         </div>
       </div>
       <div class="dien-gia-list mobile">
         <div class="container">
-          <!-- <div class="row">
-            <div class="col-6">
-              <img src="./static/images/dien-gia-1-mb.png" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(1)" />
-              <p>abc</p>
-            </div>
-            <div class="col-6">
-              <img src="./static/images/dien-gia-2-mb.png" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(2)" />
-            </div>
-            <div class="col-6">
-              <img src="./static/images/dien-gia-3-mb.png" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(3)" />
-            </div>
-            <div class="col-6">
-              <img src="./static/images/dien-gia-4-mb.png" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(4)" />
-            </div>
-            <div class="col-6">
-              <img src="./static/images/dien-gia-5-mb.png" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(5)" />
-            </div>
-            <div class="col-6">
-              <img src="./static/images/dien-gia-6-mb.png" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(6)" />
-            </div>
-            <div class="col-6">
-              <img src="./static/images/dien-gia-7-mb.png" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(7)" />
-            </div>
-            <div class="col-6">
-              <img src="./static/images/dien-gia-8-mb.png" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(8)" />
-            </div>
-            <div class="col-6">
-              <img src="./static/images/dien-gia-9-mb.png" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(9)" />
-            </div>
-          </div> -->
           <div class="row">
             <div class="col-6">
-              <img src="./static/images/dien-gia-5-mb.svg" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(1)" />
+              <img src="./static/images/dien-gia-1-mb.svg" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(1)" />
             </div>
             <div class="col-6">
-              <img src="./static/images/dien-gia-5-mb.svg" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(1)" />
+              <img src="./static/images/dien-gia-2-mb.svg" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(2)" />
             </div>
             <div class="col-6">
-              <img src="./static/images/dien-gia-5-mb.svg" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(1)" />
+              <img src="./static/images/dien-gia-3-mb.svg" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(3)" />
             </div>
             <div class="col-6">
-              <img src="./static/images/dien-gia-5-mb.svg" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(1)" />
+              <img src="./static/images/dien-gia-4-mb.svg" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(4)" />
             </div>
             <div class="col-6">
-              <img src="./static/images/dien-gia-5-mb.svg" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(1)" />
+              <img src="./static/images/dien-gia-5-mb.svg" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(5)" />
             </div>
             <div class="col-6">
-              <img src="./static/images/dien-gia-5-mb.svg" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(1)" />
+              <img src="./static/images/dien-gia-6-mb.svg" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(6)" />
             </div>
             <div class="col-6">
-              <img src="./static/images/dien-gia-5-mb.svg" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(1)" />
+              <img src="./static/images/dien-gia-7-mb.svg" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(7)" />
             </div>
             <div class="col-6">
-              <img src="./static/images/dien-gia-5-mb.svg" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(1)" />
+              <img src="./static/images/dien-gia-8-mb.svg" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(8)" />
             </div>
             <div class="col-6">
-              <img src="./static/images/dien-gia-5-mb.svg" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(1)" />
+              <img src="./static/images/dien-gia-9-mb.svg" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(9)" />
+            </div>
+            <div class="col-6">
+              <img src="./static/images/dien-gia-10-mb.svg" style="max-width: 100%; width: 100%;cursor: grab;" onclick="show(10)" />
             </div>
           </div>
         </div>
@@ -686,10 +670,10 @@
               <p>TicketBox Co. Ltd. © 2016</p>
               <div class="languages">
                 <div class="inline-block">
-                  <a href="/belgian-beer-festival-2017" class="lang vi"></a>
+                  <a href="#" class="lang vi"></a>
                 </div>
                 <div class="inline-block">
-                  <a href="/belgian-beer-festival-2017/en" class="lang en"></a>
+                  <a href="#" class="lang en"></a>
                 </div>
               </div>
             </div>
