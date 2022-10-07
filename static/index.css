@@ -408,6 +408,11 @@ padding-top: 22px;
 }
 @media only screen and (max-width: 400px) {
   .booking-btn{
+    right: 31%;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .booking-btn{
     right: 30%;
   }
 }
