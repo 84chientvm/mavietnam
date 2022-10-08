@@ -389,8 +389,7 @@
       <img class="mobile" src="./static/images/diem-nhan-mb.svg" style="width: 100%;height: auto;" />
       <div class="mobile">
         <div>
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img style="object-fit: cover;height: 200px;" class="d-block w-100"
@@ -452,7 +451,14 @@
                   src="./static/images/trang3-16a.JPG">
               </div> -->
             </div>
-
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
         </div>
         <!-- end--slide -->
@@ -475,7 +481,7 @@
         </div>
       </div>
       <img class="mobile" src="./static/images/doi-tuong-mb.svg" style="width: 100%;height: auto;" /> 
-      <img class="mobile" src="./static/images/lich-dien-mb.png" style="width: 100%;height: auto; padding: 24px 0px;" /> 
+      <img class="mobile" src="./static/images/lich-dien-mb.svg" style="width: 100%;height: auto; padding: 24px 0px;" /> 
     </section>
     <section id="chuong-trinh" class="chuong-trinh">
       <div class="pc">
@@ -721,7 +727,7 @@
     }
     function showChuongTrinh(id) {
       modal.style.display = "block";
-      modalImg.src = "./static/images/chuong-trinh-" + id + "-chi-tiet.png";
+      modalImg.src = "./static/images/chuong-trinh-" + id + "-chi-tiet.svg";
     }
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
