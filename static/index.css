@@ -274,7 +274,7 @@ padding-top: 22px;
 .mobile{
   display: none;
 }
-.mobile > i {
+.mobile > i , .updating{
   font-family: 'Mulish-BoldItalic';
         font-style: normal;
         font-weight: 700;
@@ -308,7 +308,7 @@ padding-top: 22px;
   .modal-content {
     width: 100%;
   }
-  .mobile > i {
+  .mobile > i, .updating {
     font-family: 'Mulish-BoldItalic';
           font-style: normal;
           font-weight: 700;
